@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad obligatoria - Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <form class="border p-5">
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label" for="nombre">Nombre de pila</label>
+                        <input class="form-control" id="nombre" type="text">
+    
+                    </div>
+                    <div class="col mb-3">
+                        <label class="form-label" for="apellido">Apellido</label>
+                        <input class="form-control" id="apellido" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label" for="nombreUsuario">Nombre de usuario</label>
+                        <div class="input-group">
+                            
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" id="nombreUsuario" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label" for="email">Correo electronico <span class="text-muted">(opcional)</span></label>
+                        <input class="form-control" id="email" type="email" placeholder="ejemplo@correo.com">
+    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label" for="direccion">Habla a</label>
+                        <input class="form-control" id="direccion" type="text" placeholder="1234 Main St">
+    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label" for="direccionOpcional">Direccion 2 <span class="text-muted">(opcional)</span></label>
+                        <input class="form-control" id="direccionOpcional" type="text" placeholder="Apartamento o suite">
+    
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label class="form-label" for="pais">Pais</label>
+                        <select id="pais" class="form-select" aria-label="Default select example">
+                            <option selected disabled>Escojer...</option>
+                            <option value="1">Argentina</option>
+                            <option value="2">Brazil</option>
+                            <option value="3">Uruguay</option>
+                        </select>
+    
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label class="form-label" for="estado">Estado</label>
+                        <select id="estado" class="form-select" aria-label="Default select example">
+                            <option selected disabled>Escojer...</option>
+                            <option value="1">Buenos Aires</option>
+                            <option value="2">San Pablo</option>
+                            <option value="3">Montevideo</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label class="form-label" for="codigoPostal">Codigo Postal</label>
+                        <input class="form-control" id="codigoPostal" type="text">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
